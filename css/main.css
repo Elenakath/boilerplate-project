@@ -402,7 +402,7 @@ aside .content-wrapper .form {
 }
 
 .features .features-items-description {
-  width: 50%
+  width: 50%;
 }
 /*----- Reviews styles -----*/
 .reviews article {
@@ -414,7 +414,7 @@ aside .content-wrapper .form {
   width: 49%;
 }
 /*----- Footer styles -----*/
-.footer .content-wrapper {
+footer .content-wrapper {
   width: 65%;
 }
 
@@ -422,7 +422,6 @@ aside .content-wrapper .form {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0;
 }
 
 footer .contact {
@@ -431,6 +430,47 @@ footer .contact {
 
 footer .copyright {
   width: 100%;
+}
+
+/*=========== About Page 
+=========================*/
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.mission-content p {
+  width: 45%; 
+}
+
+.contact-section .content-wrapper h2 {
+  width: 80%;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+	
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+    .faq .content-wrapper {
+        justify-content: space-between;
+    }
+    
+    .faq-content {
+        flex-basis: 45%;
+    }
+ 
+    .faq h2 {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -518,4 +558,3 @@ footer .copyright {
     page-break-after: avoid;
   }
 }
-
