@@ -157,6 +157,14 @@ header .content-wrapper {
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 .header-divider {
   background: #3a3a3a;
   width: 100%;
@@ -223,6 +231,8 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
+  background: url('../img/unplugged-retreat.jpg') center no-repeat;
+	background-size: cover;
 }
 
 .hero-area h1 {
@@ -271,6 +281,8 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat;
+	background-size: cover;
 }
 
 .features h2 {
@@ -305,6 +317,14 @@ input[type=button] {
 .reviews h2 {
   padding-bottom: 40px;
   line-height: 1.875em;
+}
+
+.reviews img {
+  width: 100%;
+}
+
+.reviews figure {
+  margin: 0;
 }
 
 .reviews h3 {
