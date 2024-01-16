@@ -132,6 +132,14 @@ textarea {
 
    }
 
+   img {
+    width: 100%;
+   }
+
+   figure {
+    margin: 0;
+   }
+
    address {
     font-style: normal;
    }
@@ -157,11 +165,7 @@ header .content-wrapper {
   margin: 0;
 }
 
-img {
-  width: 100%;
-}
-
-figure {
+ header figure {
   margin: 0;
 }
 
@@ -213,18 +217,27 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #527158;
-  size: 1.3125em;
+
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  size: 3em;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-media-icons {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
   margin: 20px 0;
+
 }
 /*---------------------- Mobile Styles - Homepage ------------------------------*/
 /* Hero Area */
@@ -257,8 +270,6 @@ input[type=text] {
   box-sizing: border-box;
   width: 100%;
   color: #2a423a;
-  font-size: 1.125em;
-  font-weight: 500;
   font-style: italic;
   padding: 1em;
 }
@@ -279,10 +290,11 @@ input[type=button] {
 
 /* Features */
 .features {
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat;
   display: flex;
   justify-content: center;
-  background: url('../img/unplugged-retreat-features.jpg') center no-repeat;
 	background-size: cover;
+  background-position: center;
 }
 
 .features h2 {
@@ -302,9 +314,19 @@ input[type=button] {
 
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   text-align: center;
   margin: 0;
+}
+
+.features .fontawesome {
+  width: 100px;
+  height: 100px;
 }
 
 /*---- Reviews ---*/
@@ -316,15 +338,7 @@ input[type=button] {
 
 .reviews h2 {
   padding-bottom: 40px;
-  line-height: 1.875em;
-}
-
-.reviews img {
-  width: 100%;
-}
-
-.reviews figure {
-  margin: 0;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -402,7 +416,7 @@ FAQ Page
 }
 
 .faq-content h4 {
-  line-height: 1.5em;
+  line-height: 1.333;
 }
 /* ==========================================================================
    Helper classes
@@ -537,6 +551,10 @@ FAQ Page
   }
 
 /*----- Hero Area -----*/
+.hero-area {
+  min-height: 600px;
+}
+
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
@@ -571,6 +589,10 @@ aside .content-wrapper .form {
   width: 62%;
 }
 
+.features i {
+  margin-bottom: 30px;
+}
+
 /*----- Reviews styles -----*/
 .reviews article {
   display: flex;
@@ -580,6 +602,7 @@ aside .content-wrapper .form {
 .reviews h2 {
   width: 85%;
 }
+.reviews article figure,
 .reviews article div {
   width: 49%;
 }
@@ -612,6 +635,11 @@ footer h4 {
 
 footer p {
   line-height: 1.285em;
+}
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 footer .copyright {
   width: 100%;
@@ -665,8 +693,8 @@ About Page
       width: 100%;
     }
 
-    .faq h4,
-    p {
+    .faq h4, 
+    .faq p {
       font-size: .875;
       line-height: 1.125;
     }
@@ -709,7 +737,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 30%;
+  width: 40%;
 }
 .form-description p {
   font-size: 1.125em;
@@ -724,10 +752,6 @@ aside .content-wrapper .form {
   flex-basis: 33%;
 }
 
-.features i {
-	font-size: 3.75em;
-    margin-bottom: 40px;
-}
 
 /* Reviews */
 .reviews h2 {
@@ -745,14 +769,14 @@ footer h4 {
 About Page 
 =========================================
 */
+.map figure { 
+  padding-bottom: 37.5%;
+}
+
 .mission h2,
 .contact-section .content-wrapper h2 {
   width: 95%;
   font-size: 3em;
-}
-
-.map figure { 
-  padding-bottom: 29%;
 }
 
 .contact-content h4 {
@@ -769,7 +793,7 @@ FAQ Page
 }
 
 .faq h4,
-p {
+.faq p {
   font-size: 1.125em;
   line-height: 1.125em;
 }
