@@ -604,7 +604,7 @@ aside .content-wrapper .form {
 }
 .reviews article figure,
 .reviews article div {
-  width: 49%;
+  width: 95%;
 }
 
 .reviews h3 {
@@ -622,6 +622,7 @@ footer .content-wrapper {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  margin-bottom: 100px;
 }
 
 footer .contact {
