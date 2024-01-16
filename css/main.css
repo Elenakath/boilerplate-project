@@ -213,6 +213,10 @@ footer .contact {
   margin-bottom: 50px;
 }
 
+footer .social {
+  margin-bottom: 100px;
+}
+
 footer .social-icons {
   display: flex;
   justify-content: space-around;
