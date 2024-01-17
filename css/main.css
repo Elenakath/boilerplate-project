@@ -98,6 +98,7 @@ textarea {
     font-size: 1em;
     text-align: left;
     color: #e2e3ed;
+    background-color: #202322;
    }
 
    ul,
@@ -203,6 +204,7 @@ footer {
 
 footer p {
   margin: 0;
+  font-size: .7em;
 }
 
 footer .content-wrapper {
@@ -280,7 +282,7 @@ input[type=text] {
 
 input[type=button] {
   width: 100%;
-  padding: 20px 0;
+  padding: 20px;
   margin-top: 20px;
   background-color: #2a423a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
@@ -576,6 +578,8 @@ aside .content-wrapper .form {
   width: 40%;
   margin: 0;
 }
+
+input
 
 /*----- Features styles -----*/
 .features h2 {
