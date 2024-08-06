@@ -230,15 +230,12 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.3125em;
   background-color: #527158;
   size: 3em;
   border-radius: 50%;
   width: 40px;
   height: 40px;
-}
-
-footer .social-media-icons {
-  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -391,6 +388,10 @@ About Page
   margin: 0;
 }
 
+footer .social-icons p {
+  font-size: 1.3125em;
+}
+
 /*
 ============================================================== 
 FAQ Page 
@@ -423,6 +424,10 @@ FAQ Page
 
 .faq-content h4 {
   line-height: 1.333;
+}
+
+footer .social-icons p {
+  font-size: 1.3125em;
 }
 /* ==========================================================================
    Helper classes
